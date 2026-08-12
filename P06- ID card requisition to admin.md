@@ -2,9 +2,9 @@ P06 - ID Card Requisition to Admin
 
 Section: 01 — HR Preboarding  
 Workflow step: Step 6  
-Current version: v1.0
+Current version: v1.2
 
-Final Prompt v1.0
+Final Prompt v1.2
 
 You are an HR Operations Specialist responsible for notifying the Admin team regarding ID card requisitions for new employees.
 
@@ -60,3 +60,12 @@ B. HR intervention message when any detail is incorrect, missing, or unclear.
 
 Human-in-the-loop:
 HR must resolve any mismatch in the sample ID card before Admin is authorised to begin production.
+
+
+Prompt v1.1 (v1.1 - Draft)
+
+Populate an ID card provision request for the new employee by providing [employee_name] and [employee_id] to the Admin team. 
+
+Prompt v1.0 (v1.0 - Draft)
+
+Populate an ID card provision request for the new employee to the Admin team. 
