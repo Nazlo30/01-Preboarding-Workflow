@@ -2,9 +2,9 @@ P02 - Send Appointment Letter for Signature
 
 Section: 01 — HR Preboarding  
 Workflow step: Step 2  
-Current version: v1.0
+Current version: v1.1
 
-Prompt v1.0
+Final Prompt v1.1
 
 Act as a People Operations Specialist for Unilever Australia. Finish the appointment letter in a formal, professional tone for successful recruits using the following criteria:
 
@@ -35,3 +35,11 @@ A. A send-ready signature-request email when the appointment letter is approved 
 
 Human-in-the-loop:
 HR retains responsibility for validating the appointment letter before it is released for signature.
+
+
+Prompt v1.0 (v1.0 - Draft)
+
+Send the appointment letter to the recruit and ask them to sign and return it. If the appointment letter has incorrect details, tell HR to check it.
+
+Keep the email professional.
+
