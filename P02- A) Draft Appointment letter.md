@@ -2,9 +2,9 @@ P02 - Draft Appointment Letter for HR review
 
 Section: 01 — HR Preboarding  
 Workflow step: Step 2a
-Current version: v1.0
+Current version: v1.1
 
-Final Prompt v1.0
+Final Prompt v1.1
 
 Act as a People Operations Specialist for Unilever Australia. Craft an appointment letter in a formal, professional tone with the subject line “Appointment Letter- [Employee_Name]" for successful recruits. 
 
@@ -31,3 +31,7 @@ A draft appointment letter in an email template form.
 
 Human-in-the-loop:
 People Operations Specialist validates the draft appointment letter before it is released for signature.
+
+Prompt v1.0- Draft Prompt
+
+Draft an appointment letter for a new employee who has accepted their offer letter within 150 words. 
