@@ -34,17 +34,12 @@ IF [EMPLOYMENT_TYPE] = EXPERIENCED_EMPLOYEE, request:
 10. Relevant professional licence or registration, if required for the role
 
 Automation rules:
-- Do not request documents already received and verified.
-- Clearly identify missing documents.
 - Send the initial request using the correct checklist.
-- If a document is unreadable, expired, inconsistent, or does not match the employee record, stop document verification and route the case to HR.
-- Do not decide whether an unclear document is legally acceptable.
 - Do not change the submission deadline without HR approval.
 
 Constraints:
 - Use only approved information from the HR record.
 - Never invent, infer, or substitute a document.
-- Never tell a candidate that a document is legally sufficient unless that has been confirmed through Unilever HR's approved process.
 
 Fallback:
 If [EMPLOYMENT_TYPE] is missing or unclear, do not automatically select a checklist. Route the case to HR for review.
@@ -54,4 +49,4 @@ Output:
 2. HR escalation message when escalation criteria are met.
 
 Human-in-the-loop:
-People Operations Specialist reviews role-specific content, handles exceptions, unclear documents, expired documents, and overdue submissions.
+People Operations Specialist reviews role-specific content and handles exceptions.
