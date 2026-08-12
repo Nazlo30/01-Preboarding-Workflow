@@ -33,7 +33,7 @@ IF [EMPLOYMENT_TYPE] = NEW_GRADUATE, request:
 7. Relevant qualification or academic certificate
 8. Relevant professional licence or certification, if required for the role
 
-IF [EMPLOYMENT_TYPE] = EXPERIENCED_HIRE, request:
+IF [EMPLOYMENT_TYPE] = EXPERIENCED_EMPLOYEE, request:
 1. Identity document
 2. Right-to-work documentation, where applicable
 3. Tax File Number (TFN) details
@@ -41,10 +41,9 @@ IF [EMPLOYMENT_TYPE] = EXPERIENCED_HIRE, request:
 5. Bank account details
 6. Emergency contact details
 7. Relevant qualification or professional certification
-8. Employment verification information
+8. Employment verification letter
 9. Professional reference details
 10. Relevant professional licence or registration, if required for the role
-11. Any mandatory company onboarding forms
 
 Automation rules:
 - Do not request documents already received and verified.
