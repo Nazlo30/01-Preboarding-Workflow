@@ -23,7 +23,7 @@ Employee details:
 
 Use [EMPLOYMENT_TYPE] to select the correct checklist.
 
-IF [EMPLOYMENT_TYPE] = FRESHER_OR_NEW_GRADUATE, request:
+IF [EMPLOYMENT_TYPE] = NEW_GRADUATE, request:
 1. Identity document
 2. Right-to-work documentation, where applicable
 3. Tax File Number (TFN) details
@@ -32,7 +32,6 @@ IF [EMPLOYMENT_TYPE] = FRESHER_OR_NEW_GRADUATE, request:
 6. Emergency contact details
 7. Relevant qualification or academic certificate
 8. Relevant professional licence or certification, if required for the role
-9. Any mandatory company onboarding forms
 
 IF [EMPLOYMENT_TYPE] = EXPERIENCED_HIRE, request:
 1. Identity document
