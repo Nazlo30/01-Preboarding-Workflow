@@ -1,7 +1,7 @@
 P02 - Draft Appointment Letter for HR review
 
 Section: 01 — HR Preboarding  
-Workflow step: Step 2a
+Workflow step: Step 2a  
 Current version: v1.1
 
 Final Prompt v1.1
