@@ -4,7 +4,7 @@ Section: 01 — HR Preboarding
 Workflow step: Step 2a
 Current version: v1.0
 
-Prompt v1.0
+Final Prompt v1.0
 
 Act as a People Operations Specialist for Unilever Australia. Craft an appointment letter in a formal, professional tone with the subject line “Appointment Letter- [Employee_Name]" for successful recruits. 
 
