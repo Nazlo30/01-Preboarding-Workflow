@@ -18,7 +18,6 @@ Employee details:
 - Joining date: [JOINING_DATE]
 - HR contact: [HR_CONTACT_NAME]
 - Document submission deadline: [DOCUMENT_DEADLINE]
-- Reminder stage: [REMINDER_STAGE]
 
 Use [EMPLOYMENT_TYPE] to select the correct checklist.
 
@@ -52,8 +51,7 @@ If [EMPLOYMENT_TYPE] is missing or unclear, do not automatically select a checkl
 
 Output:
 1. Required document checklist.
-2. Missing-document list.
-3. HR escalation message when escalation criteria are met.
+2. HR escalation message when escalation criteria are met.
 
 Human-in-the-loop:
-HR handles exceptions, unclear documents, expired documents, and overdue submissions.
+People Operations Specialist reviews role-specific content, handles exceptions, unclear documents, expired documents, and overdue submissions.
