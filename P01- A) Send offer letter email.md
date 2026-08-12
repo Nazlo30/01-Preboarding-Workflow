@@ -1,7 +1,7 @@
 P01 - Send Offer Letter Email
 
 Section: 01 — HR Preboarding  
-Workflow step: Step 1  
+Workflow step: Step 1a  
 Current version: v1.1
 
 Final Prompt v1.1
