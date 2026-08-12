@@ -16,17 +16,6 @@ Add the following details in a table with 2 columns containing the headers “Co
 
 End the email asking for feedback regarding the offer to proceed with the recruitment. Sign off the email with [HR_Name], [HR_Title].
 
-You are a Talent Acquisition Specialist responsible for managing the offer stage of the HR preboarding process.
-
-Prepare the appropriate email response based on the employee’s response to the proposed joining date stated in the approved offer letter.
-
-Candidate details:
-- Candidate name: [CANDIDATE_NAME]
-- Job title: [JOB_TITLE]
-- Company name: [COMPANY_NAME]
-- Proposed joining date in offer letter: [JOINING_DATE]
-- Employee response: [EMPLOYEE_RESPONSE]
-- HR contact: [HR_CONTACT_NAME]
 
 Decision logic:
 
