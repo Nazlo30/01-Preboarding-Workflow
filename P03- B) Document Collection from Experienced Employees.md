@@ -1,10 +1,10 @@
 P03 - Collect Required Documents from experienced employees
 
 Section: 01 — HR Preboarding  
-Workflow step: Step 3b of 6  
-Current version: v1.0
+Workflow step: Step 3b   
+Current version: v1.2
 
-Final Prompt (v1.0 - Current)
+Final Prompt (v1.2 - Current)
 
 Copy this exactly into your AI tool. Replace all [placeholders] before running. 
 
@@ -50,3 +50,23 @@ Output:
 
 Human-in-the-loop:
 People Operations Specialist reviews role-specific content and handles exceptions.
+
+
+Prompt v1.1 (v1.1 - Draft)
+
+Send an email to a new employee with prior work experience asking them to provide their required onboarding documents.
+
+Ask for:
+
+TFN
+Superannuation details
+Bank account details
+Work Verification details
+Emergency contact
+Identification
+Relevant qualifications
+
+
+Prompt v1.0 (v1.0 - Draft)
+
+Send an email to a new employee with prior work experience asking them to provide their required onboarding documents.
