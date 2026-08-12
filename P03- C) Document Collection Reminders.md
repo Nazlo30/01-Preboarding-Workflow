@@ -1,10 +1,10 @@
 P03 - Collect Required Documents with Automated Reminders
 
 Section: 01 — HR Preboarding  
-Workflow step: Step 3c of 6  
-Current version: v1.0
+Workflow step: Step 3c   
+Current version: v1.1
 
-Final Prompt (v1.0 - Current)
+Final Prompt (v1.1 - Current)
 
 Copy this exactly into your AI tool. Replace all [placeholders] before running. 
 
@@ -79,3 +79,8 @@ Output:
 
 Human-in-the-loop:
 People Operations Specialist handles exceptions, unclear documents, expired documents, and overdue submissions.
+
+
+Prompt v1.0 (v1.0 - Draft)
+
+Send a reminder email to a new employee who has been asked for their onboarding documents but has not responded yet.
