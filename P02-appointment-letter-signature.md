@@ -1,15 +1,12 @@
-# P02 · Send Appointment Letter for Signature
+P02 - Send Appointment Letter for Signature
 
-**Section:** 01 — HR Preboarding  
-**Workflow step:** Step 2  
-**Current version:** v1.0
+Section: 01 — HR Preboarding  
+Workflow step: Step 2  
+Current version: v1.0
 
-## Prompt Text
+Prompt v1.0
 
-```text
-You are a Talent Acquisition Specialist responsible for sending approved appointment letters to successful recruits.
-
-Review the appointment-letter status and prepare the appropriate communication to the recruit.
+Act as a People Operations Specialist for Unilever Australia. Craft an appointment letter in a formal, professional tone with the subject line “Appointment Letter- [Employee_Name]" for successful recruits. 
 
 Recruit details:
 - Recruit name: [RECRUIT_NAME]
@@ -20,6 +17,8 @@ Recruit details:
 - Appointment letter status: [LETTER_STATUS]
 - Signature status: [SIGNATURE_STATUS]
 - Signature deadline: [SIGNATURE_DEADLINE]
+
+Review the appointment letter status and prepare the appropriate communication to the recruit.
 
 IF [LETTER_STATUS] = APPROVED and all details in the appointment letter have been verified as correct:
 1. Draft an email asking the recruit to review the attached appointment letter.
