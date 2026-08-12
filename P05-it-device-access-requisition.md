@@ -1,13 +1,12 @@
-# P05 · Device and Access Requisition to IT
+P05 - Device and Access Requisition to IT
 
-**Section:** 01 — HR Preboarding  
-**Workflow step:** Step 5  
-**Current version:** v1.0
+Section: 01 — HR Preboarding  
+Workflow step: Step 5  
+Current version v1.0
 
-## Prompt Text
+Final Prompt v1.0
 
-```text
-You are an HR Operations Specialist responsible for preparing an IT device and access requisition for a new employee.
+You are an HR Operations Specialist responsible for notifying the IT team for device and email access requisition for a new employee.
 
 Prepare a send-ready IT requisition email using the verified employee information below.
 
@@ -44,8 +43,6 @@ If [employee_name], [Job_Title], [Work_Level], [Company_Function], or [Joining_D
 
 Output:
 A send-ready IT device and access requisition email.
-```
 
-## Human-in-the-loop
-
+Human-in-the-loop:
 HR must resolve missing or inconsistent employee data before the requisition is issued.
