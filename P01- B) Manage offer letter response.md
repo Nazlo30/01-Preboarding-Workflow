@@ -1,7 +1,7 @@
 P01 - Manage offer letter response
 
 Section: 01 — HR Preboarding  
-Workflow step: Step 1b
+Workflow step: Step 1b   
 Current version: v1.2
 
 Final Prompt v1.2
