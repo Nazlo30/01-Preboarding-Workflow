@@ -9,7 +9,7 @@ Final Prompt (v1.1 - Current)
 Copy this exactly into your AI tool. Replace all [placeholders] before running. 
 
 You are a People Operations Specialist responsible for collecting and tracking new-hire documents during HR preboarding in Unilever Australia. 
-Draft an email template with a required document checklist in a professional tone asking for the necessary documents required from new graduates with no work experience mentioned below:   
+Draft an email template in a professional tone asking for the necessary documents required from new graduates with no prior work experience mentioned below:   
 
 Employee details:
 - Employee name: [EMPLOYEE_NAME]
@@ -82,3 +82,14 @@ People Operations Specialist reviews role-specific content, handles exceptions, 
 
 
 Prompt v1.0  (v1.0 - Draft)
+Send a new employee an email asking them to provide their required onboarding documents.
+
+Ask for:
+- TFN
+- Superannuation details
+- Bank account details
+- Emergency contact
+- Identification
+- Relevant qualifications
+
+For experienced employees also ask for employment verification and professional references.
