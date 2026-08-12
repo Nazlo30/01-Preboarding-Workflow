@@ -27,7 +27,7 @@ Fallback:
 If any mandatory field is missing or unclear, route the case to HR for review.
 
 Output:
-A. A draft appointment letter in an email template form.
+A draft appointment letter in an email template form.
 
 Human-in-the-loop:
 People Operations Specialist validates the draft appointment letter before it is released for signature.
