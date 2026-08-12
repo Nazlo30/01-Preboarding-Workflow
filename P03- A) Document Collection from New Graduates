@@ -1,7 +1,7 @@
 P03 - Collect Required Documents with Automated Reminders
 
 Section: 01 — HR Preboarding  
-Workflow step: Step 3 of 6  
+Workflow step: Step 3a of 6  
 Current version: v1.1
 
 Final Prompt (v1.1 - Current)
@@ -78,5 +78,7 @@ Output:
 4. HR escalation message when escalation criteria are met.
 
 Human-in-the-loop:
-
 People Operations Specialist reviews role-specific content, handles exceptions, unclear documents, expired documents, and overdue submissions.
+
+
+Prompt v1.0  (v1.0 - Draft)
