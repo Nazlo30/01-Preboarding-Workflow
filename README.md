@@ -2,7 +2,7 @@ HR Preboarding Workflow
 
 Business function: Human Resources   
 Business case: Unilever Australia 
-Trigger:New hire receives final human hiring approval  
+Trigger: New hire receives final human hiring approval  
 
 
 Section Purpose
