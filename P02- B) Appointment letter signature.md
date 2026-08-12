@@ -1,7 +1,7 @@
 P02 - Send Appointment Letter for Signature
 
 Section: 01 — HR Preboarding  
-Workflow step: Step 2  
+Workflow step: Step 2b  
 Current version: v1.1
 
 Final Prompt v1.1
