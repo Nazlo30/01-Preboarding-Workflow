@@ -1,7 +1,7 @@
 P03 - Collect Required Documents from New Graduates 
 
 Section: 01 — HR Preboarding  
-Workflow step: Step 3a
+Workflow step: Step 3a  
 Current version: v1.2
 
 Final Prompt (v1.2 - Current)
