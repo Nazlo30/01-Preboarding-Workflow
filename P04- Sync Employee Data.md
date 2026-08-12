@@ -2,9 +2,9 @@ P04 - Sync Recruit Data to HRS and Payroll
 
 Section: 01 — HR Preboarding  
 Workflow step: Step 4  
-Current version: v1.0
+Current version: v1.1
 
-Final Prompt v1.0
+Final Prompt v1.1
 
 Assume you are an HR Operations Specialist responsible for preparing verified new-hire information for synchronisation to the HRS and payroll systems and for notifying Finance of payroll-ready information.
 
@@ -57,3 +57,8 @@ A. HRS synchronisation record.
 B. Payroll readiness status.
 C. Finance notification when the record is payroll-ready.
 D. Exception report when human intervention is required.
+
+
+Prompt v1.0 (v1.0 - Draft)
+
+Complete a new employee dataset with useful information like their name, job title, bank details and forward it to the Finance and Payroll team.
