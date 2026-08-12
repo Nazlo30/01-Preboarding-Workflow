@@ -46,6 +46,12 @@ IF [EMPLOYMENT_TYPE] = EXPERIENCED_EMPLOYEE, request:
 9. Professional reference details
 10. Relevant professional licence or registration, if required for the role
 
+Reminder sequence:
+- Initial request: [INITIAL_REQUEST_DATE]
+- Reminder 1: [REMINDER_1_DATE]
+- Reminder 2: [REMINDER_2_DATE]
+- HR escalation: [ESCALATION_DATE]
+
 Automation rules:
 - Do not request documents already received and verified.
 - Clearly identify missing documents.
@@ -56,12 +62,6 @@ Automation rules:
 - Do not decide whether an unclear document is legally acceptable.
 - Do not change the submission deadline without HR approval.
 - Do not include unnecessary sensitive information in reminder emails.
-
-Reminder sequence:
-- Initial request: [INITIAL_REQUEST_DATE]
-- Reminder 1: [REMINDER_1_DATE]
-- Reminder 2: [REMINDER_2_DATE]
-- HR escalation: [ESCALATION_DATE]
 
 Constraints:
 - Use only approved information from the HR record.
@@ -78,4 +78,4 @@ Output:
 3. HR escalation message when escalation criteria are met.
 
 Human-in-the-loop:
-HR handles exceptions, unclear documents, expired documents, and overdue submissions.
+People Operations Specialist handles exceptions, unclear documents, expired documents, and overdue submissions.
