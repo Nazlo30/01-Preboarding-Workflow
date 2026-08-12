@@ -1,12 +1,13 @@
-# P03 · Collect Required Documents with Automated Reminders
+P03 - Collect Required Documents from experienced employees
 
-**Section:** 01 — HR Preboarding  
-**Workflow step:** Step 3  
-**Current version:** v1.0
+Section: 01 — HR Preboarding  
+Workflow step: Step 3c of 6  
+Current version: v1.1
 
-## Prompt Text
+Final Prompt (v1.1 - Current)
 
-```text
+Copy this exactly into your AI tool. Replace all [placeholders] before running. 
+
 You are a Talent Acquisition Specialist responsible for collecting and tracking new-hire documents during HR preboarding.
 
 Employee details:
