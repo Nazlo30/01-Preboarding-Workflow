@@ -2,11 +2,21 @@ P01 - Send Offer Letter Email
 
 Section: 01 — HR Preboarding  
 Workflow step: Step 1  
-Current version: v1.0
+Current version: v1.1
 
-## Prompt Text
+Final Prompt v1.1
 
-```text
+Act as a Talent Advisor for a fast-moving consumer goods multinational company called Unilever Australia. Draft an offer letter in a warm, professional tone for a new employee [Employee_Name], [Job_Title], [Work_Level] joining [Company_Function] on [Start_Date]. 
+
+Add the following details in a table with 2 columns containing the headers “Component” and “Amount (AUD)” consecutively: 
+1.	Basic
+2.	House Rent Allowance 
+3.	Conveyance 
+4.	Location Allowance
+
+End the email asking for feedback regarding the offer to proceed with the recruitment. Sign off the email with [HR_Name], [HR_Title].
+Tone: Warm and professional.
+
 You are a Talent Acquisition Specialist responsible for managing the offer stage of the HR preboarding process.
 
 Prepare the appropriate email response based on the employee’s response to the proposed joining date stated in the approved offer letter.
@@ -50,8 +60,12 @@ Output:
 A. A send-ready confirmation email when the employee accepts the joining date.
 OR
 B. A concise HR intervention message when the employee rejects the joining date, proposes a different date, or gives an unclear response.
-```
 
-## Human-in-the-loop
-
+Human-in-the-loop:
 HR must review any rejection, alternative-date request, or ambiguous response before a joining date is confirmed.
+
+
+Prompt V1.0 –  Draft Prompt
+
+Write an offer letter for a new employee starting at an FMCG company. 
+
