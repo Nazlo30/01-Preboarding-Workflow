@@ -36,6 +36,7 @@ A. A send-ready signature-request email when the appointment letter is approved 
 Human-in-the-loop:
 HR retains responsibility for validating the appointment letter before it is released for signature.
 
+
 Prompt v1.1 (v1.1 - Draft)
 
 Send the appointment letter to the recruit and ask them to sign it by [SIGNATURE_DEADLINE] and return it. If the appointment letter has incorrect details, tell HR to check it.
