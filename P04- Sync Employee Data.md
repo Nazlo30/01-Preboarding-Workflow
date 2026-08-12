@@ -1,8 +1,8 @@
-# P04 · Sync Recruit Data to HRS and Payroll
+P04 - Sync Recruit Data to HRS and Payroll
 
-**Section:** 01 — HR Preboarding  
-**Workflow step:** Step 4  
-**Current version:** v1.0
+Section: 01 — HR Preboarding  
+Workflow step: Step 4  
+Current version: v1.0
 
 ## Prompt Text
 
