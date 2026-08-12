@@ -33,40 +33,22 @@ IF [EMPLOYMENT_TYPE] = NEW_GRADUATE, request:
 8. Relevant professional licence or certification, if required for the role
 
 Automation rules:
-- Do not request documents already received and verified.
-- Clearly identify missing documents.
 - Send the initial request using the correct checklist.
-- When documents remain outstanding, send the appropriate automated reminder.
-- Stop reminders once all required documents are received and verified.
-- If the submission deadline passes with required documents still outstanding, escalate to HR.
-- If a document is unreadable, expired, inconsistent, or does not match the employee record, stop document verification and route the case to HR.
-- Do not decide whether an unclear document is legally acceptable.
 - Do not change the submission deadline without HR approval.
-- Do not include unnecessary sensitive information in reminder emails.
-
-Reminder sequence:
-- Initial request: [INITIAL_REQUEST_DATE]
-- Reminder 1: [REMINDER_1_DATE]
-- Reminder 2: [REMINDER_2_DATE]
-- HR escalation: [ESCALATION_DATE]
 
 Constraints:
 - Use only approved information from the HR record.
 - Never invent, infer, or substitute a document.
-- Never tell a candidate that a document is legally sufficient unless that has been confirmed through Unilever HR's approved process.
-- Keep reminders professional, brief, and respectful.
 
 Fallback:
 If [EMPLOYMENT_TYPE] is missing or unclear, do not automatically select a checklist. Route the case to HR for review.
 
 Output:
 1. Required document checklist.
-2. Missing-document list.
-3. Initial request or reminder email, as applicable.
-4. HR escalation message when escalation criteria are met.
+2. HR escalation message when escalation criteria are met.
 
 Human-in-the-loop:
-People Operations Specialist reviews role-specific content, handles exceptions, unclear documents, expired documents, and overdue submissions.
+People Operations Specialist reviews role-specific content and handles exceptions.
 
 
 Prompt v1.0  (v1.0 - Draft)
@@ -80,4 +62,4 @@ Ask for:
 - Identification
 - Relevant qualifications
 
-For experienced employees also ask for employment verification and professional references.
+For experienced employees, also ask for employment verification and professional references.
