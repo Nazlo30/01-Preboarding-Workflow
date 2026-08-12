@@ -1,4 +1,4 @@
-P02 - Send Appointment Letter for Signature
+P02 - Draft Appointment Letter for HR review
 
 Section: 01 — HR Preboarding  
 Workflow step: Step 2  
