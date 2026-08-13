@@ -40,13 +40,6 @@ Legend: ✅ = clearly meets criterion, ⚠️ = partially meets criterion, ❌ =
 | | v1.1 | ✅ Adds employee name + ID | ⚠️ New employee / Admin | ❌ | ❌ | ⚠️ Request defined | 🟠 **PARTIAL PASS** |
 | | **v1.2 Final** | ✅ Strong validation workflow | ✅ HR → Admin workflow | ⚠️ Professional implied | ✅ | ✅ Approval / intervention | 🟢 **PASS*** |
 
-## Version-Level Summary
-
-| Version | Number of Prompts | General Result |
-|---|---:|---|
-| **v1.0** | 10 | 🔴 Mostly FAIL — basic task instructions with little control |
-| **v1.1** | 10 | 🟠 Major improvement — more context, content and structure |
-| **v1.2** | 7 | 🟢 Strongest — structured inputs, constraints, fallbacks and defined outputs |
 
 ## Overall Finding
 
@@ -68,7 +61,4 @@ Where v1.2 exists, it generally introduces:
 
 This makes v1.2 the strongest version where available.
 
-### Notes
 
-- P02-A, P03-C and P04 currently stop at **v1.1** in the repository; no v1.2 row has been invented.
-- `* PASS with improvement opportunity` means the prompt meets the overall operational requirement, but at least one of the five criteria is only partially explicit.
